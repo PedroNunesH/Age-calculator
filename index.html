@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clculadora de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <header>
+        <h1>Calculadora de idade</h1>
+    </header>
+    <section>
+        <div id="info">
+            <p>Insira o dia <input type="number" name="txt1" id="txt1"></p>
+            <p>Insira o mês <input type="number" name="txt2" id="txt2"></p>
+            <p>Insira o ano <input type="number" name="txt3" id="txt3"></p>
+            <!--<p><input type="button" name="btn1" id="btn1" value="Calcule" onclick="calcular ()"></p>-->
+        </div>
+        <div id="btn" onclick="calcular ()" onmouseenter="mudar()" onmouseleave="sair()">Calcule</div>
+        <div id="res">   
+
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
