@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color: rgb(173, 255, 228);
+    margin-left: 500px;
+    position: absolute;
+    background-size: cover;
+    position: relative;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    width: 410px;
+}
+
+#info{
+    background-color: rgb(249, 255, 236);
+    padding: 5px;
+    width: 400px;
+}
+
+#btn {
+    background-color: aliceblue;
+    margin-top: 30px;
+    margin-left: 180px;
+    width: 80px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+#res {
+    margin-top: 20px;
+    width: 445px;
+}
